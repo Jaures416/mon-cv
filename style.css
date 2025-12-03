@@ -1,0 +1,86 @@
+/* ---------- STYLES GLOBAUX ---------- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Conteneur général */
+section {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Titres principaux */
+h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #004aad;
+    border-left: 5px solid #004aad;
+    padding-left: 10px;
+}
+
+/* Sous-titres */
+h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+/* Paragraphes */
+p {
+    font-size: 16px;
+}
+
+/* ---------- SECTION TITRE ---------- */
+#titre p {
+    font-size: 26px;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+}
+
+/* ---------- SECTION DESCRIPTION ---------- */
+#description p {
+    font-style: italic;
+    text-align: center;
+    color: #555;
+}
+
+/* ---------- FORMATIONS & ASSOCIATIONS ---------- */
+.formation-item,
+.association-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f0f4ff;
+    border-left: 4px solid #004aad;
+    border-radius: 6px;
+}
+
+/* ---------- COMPÉTENCES ---------- */
+#competences ul {
+    list-style: none;
+    padding: 0;
+}
+
+#competences li {
+    background: #004aad;
+    color: white;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    width: fit-content;
+    transition: 0.3s;
+}
+
+#competences li:hover {
+    background: #006eff;
+    cursor: pointer;
+}
